@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio by Arka</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0b439640c4.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- -------------------header-------------------- -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="https://d3dyfaf3iutrxo.cloudfront.net/thumbnail/user/8a4b2703c78c416fa54a64be926b6449.jpeg"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Srvices</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-ellipsis" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+          <p>Hello Everyone</p>
+          <h1>I'm Arka Maity</h1>
+          <h4>Front-end Developer</h4>
+        </div>
+      </div>
+    </div>
+    <!-- -----------------------------about------------------------------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p class="about-me-text">
+              I am Arka Maity.I am graduated as Bachelor Of Technology with
+              specialization in Electronics and Communication Engineering.
+            </p>
+            <!-- <p></p> -->
+            <p class=".about-me-text-2">
+              I specialize in creating digital experiences that are not only
+              visually appealing but also highly functional and user-friendly.
+              With a passion for both design and technology, I leverage my
+              skills in HTML, CSS, JavaScript,React.js and other web
+              technologies to bring to life designs that meet the needs and
+              expectations of users.
+            </p>
+            <!-- <p></p> -->
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <p class="tab-contents-span">Web App Development</p>
+              <p></p>
+              <h4>Front-end development</h4>
+              <ul class="tab-contents-list">
+                <li>React.js</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Cascading Style Sheets(CSS)</li>
+                <li>Hypertext Markup Language(HTML)</li>
+                <li>Data Structure and Algorithm</li>
+                <li>Java</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <p class="education-heading">Bachelor's Degree.</p>
+                  <br />
+                  
+                  <ul>
+                    <li>Techno India ,Salt Lake.</li>
+                    <li>2021.</li>
+                    <li>CGPA : 8.48</li>
+                  </ul>
+                </li>
+                <br />
+                <br />
+                <li>
+                  <p class="education-heading">10+2 (Higher Secondary).</p>
+                  <br />
+
+                  <ul>
+                    <li>Ramakrishna Mission VidyaBhavan.</li>
+
+                    <li>Grade :A+(87.80%)</li>
+                  </ul>
+                </li>
+                <br />
+                <br />
+                <li>
+                  <p class="education-heading">10th(Secondary).</p>
+                  <br />
+                 
+                  <ul>
+                    <li>Ramakrishna Mission VidyaBhavan.</li>
+
+                    <li>Grade :A+(89.70%)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <p>Fresher (0-1 year).</p>
+              <br />
+              <p>Successfully completed Full-stack Web Development(MERN stack)Training from 'Newton School'</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------Services--------------------------->
+    <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My services</h1>  
+          <div class="services-list">
+           
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web App Development</h2>
+                <br />
+                <p>Being a Web Developer ,I am professionally responsible for designing and coding Web App for corporations and consumers.I extensively collaborate with clients to identify what they require, then design UI and Web App in programming languages such as JavaScript and other libaries like React js. </p>
+                <br />
+                <a href="#">Know more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>UI/UX Design </h2>
+                <br />
+                <p>I specialize in creating digital experiences that are not only visually appealing but also highly functional and user-friendly. With a passion for both design and technology, I leverage my skills in HTML, CSS, JavaScript, and other web technologies to bring to life designs that meet the needs and expectations of users.</p>
+                <br />
+                <a href="#">Know more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-file-code"></i>
+                <h2>Software Development </h2>
+                <br />
+                <p>Being a Software Developer I am professionally responsible for designing and coding software for corporations and consumers.I extensively collaborate with clients to identify what they require, then design programs in programming languages such as Java.</p>
+                <br />
+                <a href="#">Know more</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- ---------------------------------portfolio--------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <br>
+                        <h4>Facebook Clone</h4>
+                        <p>Tech Stack used -- React.js,JavaScript,CSS,HTML</p>
+                        <br />
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work--2.jpg">
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <br>
+                        <h4>Jio-saavn Clone</h4>
+                        <p>Tech Stack used -- React.js,JavaScript,CSS,HTML</p>
+                        <br />
+                        <a href="https://jio-saavn-arka.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpeg">
+                    <div class="layer">
+                        <h2>E-commerce App</h2>
+                        <br>
+                        <h4>E-commerce</h4>
+                        <p>Tech Stack used -- ,React.js,JavaScript,CSS,HTML</p>
+                        <br />
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="SeeMore.html" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------------Contact---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p> <i class="fa-solid fa-envelope"></i> amaity.mid@gmail.com</p>
+                 <p> <i class="fa-solid fa-phone"></i> +91 7001873889</p>
+                 <div class="social-icons">
+                    <a href="linkedin.com/in/arka-maity-5a8357163"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="linkedin.com/in/arka-maity-5a8357163"><i class="fa-brands fa-github"></i></a>
+                    
+                 </div>
+                 <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>When I am not writing code I like to click photos<br/><a href="https://instagram.com/arka_maity2597?igshid=MzMyNGUyNmU2YQ=="></a> <i class="fa-brands fa-instagram"></i></p>
+            <br />
+            <p>Made with <i class="fa-solid fa-heart"></i> by Arka</p>
+        </div>
+    </div>
+    <!-- ------------------JavaScript---------------------------- -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyPSf0hoLO7Bepd4mShZv9eoBfaCvupwxI5rcB4sKIdA4k7yxUQZSQkWpYDnYG5rxZ2Xg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML=" "
+        },5000)
+        form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+  </body>
+</html>

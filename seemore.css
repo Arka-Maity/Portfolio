@@ -1,0 +1,26 @@
+*{
+    color:whitesmoke;
+}
+.seeMore{
+    background-image:url('images/seeMore.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: 100%;
+  
+}
+.seeMore {
+    width: 100%;
+    margin: auto;
+}
+.seeMore-heading{
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+}
+.project-headings{
+    font-size: 25px;
+    color: rgb(234, 216, 216);
+    font-weight: 600;
+    list-style: none;
+    padding: 10px;
+}
